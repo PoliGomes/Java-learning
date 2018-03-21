@@ -1,0 +1,25 @@
+
+public class TestandoMetodo {
+	
+	public static void main(String[] args) {
+		Conta contaDoPaulo = new Conta();
+		contaDoPaulo.saldo = 100;
+		Conta contaDaPaula = new Conta();
+		
+		contaDoPaulo.deposita(50);
+		System.out.println(contaDoPaulo.saldo);
+		
+		boolean conseguiuRetirar = contaDoPaulo.saca(20);
+		System.out.println(contaDoPaulo.saldo);
+		System.out.println(conseguiuRetirar);
+		
+		contaDaPaula.deposita(5000);
+		if((contaDaPaula.transfere(700, contaDoPaulo)) == true) {
+			System.out.println("Transferência realizada com sucesso");
+		}else{
+			System.out.println("Saldo insuficiente");
+		}
+		
+		System.out.println(contaDoPaulo.saldo);
+	}
+}

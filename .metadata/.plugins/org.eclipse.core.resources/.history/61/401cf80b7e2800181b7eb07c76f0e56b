@@ -1,0 +1,16 @@
+
+public class testeCondicional2 {
+	public static void main(String[] args) {
+		System.out.println("testando condicionais novamente");
+		
+		int idade = 20;
+		int quantidadePessoas = 3;
+		boolean acompanhado = quantidadePessoas >=2;
+		
+		if (idade >=18 || acompanhado){
+			System.out.println("pode entrar");
+		}else{
+			System.out.println("não pode entrar");
+		}
+	}
+}

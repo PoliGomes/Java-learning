@@ -1,0 +1,10 @@
+
+public class Cliente {
+	String nome;
+	double cpf;
+	String profissao;
+	
+	Conta contaDaPoliana = new Conta();
+	contaDaPoliana.titular = poliana;
+	
+}

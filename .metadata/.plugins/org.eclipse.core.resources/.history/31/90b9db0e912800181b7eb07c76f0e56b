@@ -1,0 +1,5 @@
+class conta {
+	double saldo;
+	int agencia;
+	int
+}

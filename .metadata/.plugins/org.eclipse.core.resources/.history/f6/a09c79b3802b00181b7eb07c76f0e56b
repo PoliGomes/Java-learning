@@ -1,0 +1,17 @@
+
+
+public class Cliente {
+	String nome;
+	String cpf;
+	String profissao;
+	
+	public static void main(String[] args) {
+		Cliente poliana = new Cliente();
+		poliana.nome = "Poliana Gomes";
+		poliana.cpf = "222.222.222-22";
+		poliana.profissao = "programadora";
+	
+		Conta contaDaPoliana = new Conta();
+		contaDaPoliana.titular = poliana;
+	}
+}
